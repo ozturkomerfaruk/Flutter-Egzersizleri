@@ -24,4 +24,5 @@ class MyApp extends StatelessWidget {
   }
 }
 
+//Flutter State Management - Using Provider to read JSON data
 //https://www.youtube.com/watch?v=CQt91j_MsUw&ab_channel=JohanJurrius

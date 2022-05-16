@@ -1,4 +1,5 @@
 import 'package:denemelerdunyasi/news_data.dart';
+import 'package:denemelerdunyasi/widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -9,8 +10,12 @@ class StoriesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     context.read<NewsData>().fetchData;
     return Scaffold(
+      appBar: AppBar(),
       body: RefreshIndicator(
-        onRefresh: () async {},
+        onRefresh: () async {
+          context.read<NewsData>().initialValues();
+          context.read<NewsData>().fetchData;
+        },
         child: Center(
           child: Consumer<NewsData>(
             builder: ((context, value, child) {
@@ -22,9 +27,9 @@ class StoriesPage extends StatelessWidget {
                           textAlign: TextAlign.center,
                         )
                       : ListView.builder(
-                          itemCount: value.map.length,
+                          itemCount: value.map['stories'].length,
                           itemBuilder: (context, index) {
-                            return const Text('Hello');
+                            return NewsCard(map: value.map['stories'][index]);
                           },
                         );
             }),
