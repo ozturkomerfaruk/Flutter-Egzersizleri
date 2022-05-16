@@ -10,7 +10,7 @@ class NewsData with ChangeNotifier {
   bool _error = false;
   String _errorMessage = '';
 
-  Map<String, dynamic> get map => map;
+  Map<String, dynamic> get map => _map;
   bool get error => _error;
   String get errorMessage => _errorMessage;
 
