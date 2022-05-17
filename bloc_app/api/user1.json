@@ -1,0 +1,52 @@
+[
+    {
+        "userId": 1,
+        "first_name": "Khalil",
+        "email": "kphizackerly0@techcrunch.com"
+    },
+    {
+        "userId": 2,
+        "first_name": "Adela",
+        "email": "acatto1@squidoo.com"
+    },
+    {
+        "userId": 3,
+        "first_name": "Caterina",
+        "email": "cleverson2@japanpost.jp"
+    },
+    {
+        "userId": 4,
+        "first_name": "Dimitri",
+        "email": "dbrellin3@nytimes.com"
+    },
+    {
+        "userId": 5,
+        "first_name": "Charita",
+        "email": "cskett4@utexas.edu"
+    },
+    {
+        "userId": 6,
+        "first_name": "Anastasie",
+        "email": "asnowdon5@lulu.com"
+    },
+    {
+        "userId": 7,
+        "first_name": "Celeste",
+        "email": "cclackers6@latimes.com"
+    },
+    {
+        "userId": 8,
+        "first_name": "Warde",
+        "email": "wgedney7@sogou.com"
+    },
+    {
+        "userId": 9,
+        "first_name": "Avril",
+        "email": "asarfatti8@de.vu"
+    },
+    {
+        "userId": 10,
+        "first_name": "Wini",
+        "email": "wdybell9@umn.edu"
+    }
+]
