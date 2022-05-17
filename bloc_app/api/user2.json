@@ -1,0 +1,52 @@
+[
+    {
+        "userId": 1,
+        "first_name": "omer",
+        "email": "susoldaki0@ekran.com"
+    },
+    {
+        "userId": 2,
+        "first_name": "faruk",
+        "email": "ben@neyapiyom.com"
+    },
+    {
+        "userId": 3,
+        "first_name": "yahya",
+        "email": "birdaha@indirsem.jp"
+    },
+    {
+        "userId": 4,
+        "first_name": "bekir",
+        "email": "daha@kolay.com"
+    },
+    {
+        "userId": 5,
+        "first_name": "fatih",
+        "email": "olacakmis@sanki.edu"
+    },
+    {
+        "userId": 6,
+        "first_name": "bir hocam",
+        "email": "kolaylik@versin.com"
+    },
+    {
+        "userId": 7,
+        "first_name": "diyordu sadece",
+        "email": "okelimeyi@yazmayimda.com"
+    },
+    {
+        "userId": 8,
+        "first_name": "ne olduguna",
+        "email": "bukelimeyi@yazayim.com"
+    },
+    {
+        "userId": 9,
+        "first_name": "bakacaksin",
+        "email": "tamam@de.vu"
+    },
+    {
+        "userId": 10,
+        "first_name": "oyle degil",
+        "email": "okey@bitti.edu"
+    }
+]
